@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-ca">
 <head>
   <meta charset="utf-8">
   <title>Registration Form</title>
@@ -13,46 +13,48 @@
 <body>
   <section class="contact island">
     <div class="max-length">
-      <h1 class="not-bold yotta pad-t">Want to go to Mars?</h1>
-      <p class="peta">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+      <h1 class="not-bold exa pad-t">Want to go to Mars?</h1>
+      <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
 
       <form class="push-0" method="POST" action="https://formspree.io/obritschk@gmail.com">
         <fieldset>
-          <legend class="italic peta push">Personal details</legend>
-          <div class="push">
-            <label for="name">Name</label>
-            <input id="name" name="name">
-          </div>
-          <div class="push">
-            <label for="email">Email</label>
-            <input id="email" name="email">
-          </div>
-          <div class="push">
-            <label for="age">Age</label>
-            <input id="age" name="age">
-          </div>
-          <div>
-            <input type="hidden" name="_subject" value="Request to join mission">
-          </div>
-          <div class="push">
-            <label for="fitness">Physical fitness</label>
-            <select id="fitness">
-              <option>Super-human</option>
-              <option>Fit as a fiddle</option>
-              <option>Not terribly strong</option>
-              <option>A little couch-potato-y</option>
-            </select>
-          </div>
-          <div class="push">
-            <label for="address">Address</label>
-            <textarea id="address"></textarea>
+          <legend class="italic giga push">Personal details</legend>
+          <div class="grid">
+            <div class="push unit xs-1 s-1 m-1 l-1-2 name">
+              <label for="name">Name</label>
+              <input id="name" name="name">
+            </div>
+            <div class="push unit xs-1 s-1 m-1 l-1-2 age">
+              <label for="age">Age</label>
+              <input id="age" name="age">
+            </div>
+            <div class="push unit xs-1 s-1 m-1 l-1-2 email">
+              <label for="email">Email</label>
+              <input id="email" name="email">
+            </div>
+            <div>
+              <input type="hidden" name="_subject" value="Request to join the mission">
+            </div>
+            <div class="push unit xs-1 s-1 m-1 l-1-2 fitness">
+              <label for="fitness">Physical fitness</label>
+              <select id="fitness" name="fitness">
+                <option>Super-human</option>
+                <option>Fit as a fiddle</option>
+                <option>Not terribly strong</option>
+                <option>A little couch-potato-y</option>
+              </select>
+            </div>
+            <div class="push-0 unit xs-1 s-1 m-1 l-1s">
+              <label for="address">Address</label>
+              <textarea id="address" name="address"></textarea>
+            </div>
           </div>
         </fieldset>
         <fieldset>
-          <legend class="italic peta push">Mission statement</legend>
+          <legend class="italic giga push">Mission statement</legend>
           <div class="push">
             <label for="statement">Why do you want to go to Mars?</label>
-            <textarea id="statement"></textarea>
+            <textarea id="statement" name="statement"></textarea>
           </div>
           <div class="text-center">
             <button class="btn" type="submit">Register for the trip!</button>
