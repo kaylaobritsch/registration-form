@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Registration Form</title>
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+</head>
+<body>
+  <section class="contact">
+    <div class="max-length">
+      <h1>Want to go to Mars?</h1>
+      <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+
+      <form class="push-0" method="POST" action="https://formspree.io/obritschk@gmail.com">
+        <h2>Personal details</h2>
+        <div>
+          <label for="name">Name</label>
+          <input id="name" name="name">
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" name="email">
+        </div>
+        <div>
+          <label for="fitness">Physical fitness</label>
+          <input id="fitness" list="fitness-list">
+          <datalist id="fitness-list">
+            <option value="Super-human">
+            <option value="Fit as a fiddle">
+            <option value="Not terribly strong">
+            <option value="A little couch-potato-y">
+          </datalist>
+        <div>
+          <label for="address">Address</label>
+          <textarea id="address"></textarea>
+        </div>
+        <h2>Mission statement</h2>
+        <div>
+          <label for="statement">Why do you want to go to Mars?</label>
+          <textarea id="statement"></textarea>
+        </div>
+        <div>
+          <button class="btn" type="submit">Register for the trip!</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+Request to join the mission
+
+</body>
+</html>
